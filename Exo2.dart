@@ -8,5 +8,7 @@ try{
   } on FormatException  catch (iba) {
     print("erreu : Le format saisi n'est pas un nombre entier).");
     print("Détail : ${iba.message}");
+  } finally {
+    print("Fin d'opération");
   }
 }
