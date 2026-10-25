@@ -7,7 +7,7 @@ try{
   int age = int.parse(input ?? "");
   } on FormatException  catch (iba) {
     print("erreu : Le format saisi n'est pas un nombre entier).");
-    print("Détail : ${iba.message}");
+    print("Detail : ${iba.message}");
   } finally {
     print("Fin d'opération");
 
