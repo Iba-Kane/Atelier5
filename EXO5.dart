@@ -32,6 +32,6 @@ void EXO5(){
     print("Fin du programme de vérification.");
   }
 }
-
-
-    
+void main() {
+  EXO5();
+}    
