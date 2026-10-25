@@ -22,3 +22,7 @@ void EXO4() {
   }
 
 }
+
+void main() {
+  EXO4();
+}
