@@ -15,3 +15,6 @@ void  Exo3() {
   }
 
 }
+ void main() {
+  Exo3();
+}
